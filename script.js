@@ -4,7 +4,7 @@ const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-const socket = new WebSocket('ws://localhost:8080');
+const socket = new WebSocket('wss://testserver-production-492d.up.railway.app');
 
 let playerId = null;
 let otherPlayers = {};
